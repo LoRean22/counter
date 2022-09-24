@@ -13,10 +13,10 @@ enum class Commands {
 
 class Counter {
 private:
-	int number = 1;
+	int number_ = 1;
 
 public:
-	Counter(int number = 1) : number(number) 
+	Counter(int number) : number_(number)
 	{
 
 	}
